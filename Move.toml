@@ -1,0 +1,19 @@
+[package]
+name = "to_do_list_module_v1_01"
+version = "1.0.0"
+authors = []
+
+[addresses]
+std = "0x1"
+aptos_framework = "0x1"
+# Replace this with your account address when publishing
+config_module = "0xc0fde781618b26d26425f77fd97e1d6d74c10d384658870ee1dbc3c1cce38174"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
