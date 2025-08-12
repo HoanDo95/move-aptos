@@ -1,5 +1,5 @@
 [package]
-name = "to_do_list_module_v1_01"
+name = "counter"
 version = "1.0.0"
 authors = []
 

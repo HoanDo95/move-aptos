@@ -2,13 +2,14 @@
 //     use std::string::{String};
 //     use std::signer;
 
+//     /// Error code indicating that the message was not found.
 //     const E_MESSAGE_NOT_FOUND: u64 = 1;
 
 //     struct MessageHolder has key {
 //         message: String,
 //         last_updated_timestamp: u64
 //     }
-    
+
 //     public entry fun set_message(account: &signer, msg_bytes: vector<u8>) {
 //         let addr = signer::address_of(account);
 //         let message_str = std::string::utf8(msg_bytes);
@@ -28,3 +29,4 @@
 //         borrow_global<MessageHolder>(owner).message
 //     }
 // }
+
